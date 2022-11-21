@@ -25,6 +25,7 @@ function submitInput(){
 
 
         $("#questionairesToSend").show()
+        $("#inputFromUser").hide()
         resetAllFields();
     }
 }
@@ -66,6 +67,7 @@ function submitQuestionaire(){
 
         resetAllFields();
         $("#questionairesToSend").hide()
+        $("#inputFromUser").show()
         if(counter == 1){
             $("#output").text("Thank you for taking this Survey");
             $("#inputFromUser").hide()
